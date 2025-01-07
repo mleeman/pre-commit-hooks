@@ -1,7 +1,7 @@
 -   id: tlv-set-git-vars
     name: tlv-set-git-vars
     description: 'Simple hook to set GIT environment variables'
-    entry: tlv_set_get_vars
+    entry: tlv-set-git-vars
     language: python
     require_serial: true
     additional_dependencies: []
