@@ -6,3 +6,11 @@
     require_serial: true
     additional_dependencies: []
     minimum_pre_commit_version: '2.9.2'
+-   id: tlv-deb-copyright-year
+    name: tlv-deb-copyright-year
+    description: 'Simple to test if the d/copyright is set to the current  year'
+    entry: tlv-deb-copyright-year
+    language: python
+    require_serial: true
+    additional_dependencies: []
+    minimum_pre_commit_version: '2.9.2'
