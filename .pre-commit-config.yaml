@@ -1,9 +1,10 @@
 # .pre-commit-config.yaml
 repos:
 -   repo: https://github.com/mleeman/pre-commit-hooks
-    rev: v0.0.0
+    rev: v0.0.1 # this is optional, use `pre-commit autoupdate` to get the latest rev!
     hooks:
     -   id: tlv-set-git-vars
+    -   id: tlv-deb-copyright-year
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0  # this is optional, use `pre-commit autoupdate` to get the latest rev!
     hooks:
