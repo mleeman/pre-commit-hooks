@@ -9,5 +9,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     os.environ[ "GIT_AUTHOR_NAME" ] = "Marc Leeman"
     os.environ[ "GIT_AUTHOR_EMAIL=" ] = "m.leeman@televic.com"
 
+    return 0
+
 if __name__ == '__main__':
     raise SystemExit(main())
