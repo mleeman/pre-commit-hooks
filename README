@@ -1,1 +1,5 @@
-simple test file
+# pre-commit hooks
+
+## List of hooks
+  * tlv-deb-copyright-year: tests if the current year is in the
+    d/copyright file when updating a repository.
