@@ -5,6 +5,7 @@ repos:
     hooks:
     -   id: tlv-set-git-vars
     -   id: tlv-deb-copyright-year
+    -   id: tlv-deb-run-lrc
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0  # this is optional, use `pre-commit autoupdate` to get the latest rev!
     hooks:
