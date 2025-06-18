@@ -8,6 +8,9 @@ from collections.abc import Sequence
 
 
 def check_debian_copyright(filenames: Sequence[str]) -> int:
+    """
+    Check if the debian/copyright file contains the current year.
+    """
     retv = 0
 
     if os.path.exists("debian/copyright"):
@@ -23,6 +26,9 @@ def check_debian_copyright(filenames: Sequence[str]) -> int:
 
 
 def main(argv: Sequence[str] | None = None) -> int:
+    """
+    Main function to parse arguments and check the debian/copyright file.
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument(
         'filenames', nargs='*',
