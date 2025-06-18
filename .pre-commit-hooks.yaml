@@ -14,3 +14,11 @@
     require_serial: true
     additional_dependencies: []
     minimum_pre_commit_version: '2.9.2'
+-   id: tlv-deb-run-lrc
+    name: tlv-deb-run-lrc
+    description: 'Run lincensecheck (lrc) on the debian package'
+    entry: tlv-deb-run-lrc
+    language: python
+    require_serial: true
+    additional_dependencies: []
+    minimum_pre_commit_version: '2.9.2'
