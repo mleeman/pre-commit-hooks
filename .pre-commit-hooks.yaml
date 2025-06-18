@@ -1,15 +1,15 @@
 -   id: tlv-set-git-vars
-    name: Check for GIT environment variables
+    name: tlv-set-git-vars
     description: 'Simple hook to set GIT environment variables'
     entry: tlv-set-git-vars
     language: python
 -   id: tlv-deb-copyright-year
-    name: Simple check for copyright year
+    name: tlv-deb-copyright-year
     description: 'Simple to test if the d/copyright is set to the current year'
     entry: tlv-deb-copyright-year
     language: python
 -   id: tlv-deb-run-lrc
-    name: Run lincensecheck (lrc)
+    name: tlv-deb-run-lrc
     description: 'Run lincensecheck (lrc) on the debian package'
     entry: tlv-deb-run-lrc
     language: python
