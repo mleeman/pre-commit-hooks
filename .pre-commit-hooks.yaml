@@ -3,22 +3,13 @@
     description: 'Simple hook to set GIT environment variables'
     entry: tlv-set-git-vars
     language: python
-    require_serial: true
-    additional_dependencies: []
-    minimum_pre_commit_version: '2.9.2'
 -   id: tlv-deb-copyright-year
     name: Simple check for copyright year
     description: 'Simple to test if the d/copyright is set to the current year'
     entry: tlv-deb-copyright-year
     language: python
-    require_serial: true
-    additional_dependencies: []
-    minimum_pre_commit_version: '2.9.2'
 -   id: tlv-deb-run-lrc
     name: Run lincensecheck (lrc)
     description: 'Run lincensecheck (lrc) on the debian package'
     entry: tlv-deb-run-lrc
     language: python
-    require_serial: true
-    additional_dependencies: []
-    minimum_pre_commit_version: '2.9.2'
