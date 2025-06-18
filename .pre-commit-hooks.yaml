@@ -3,13 +3,16 @@
     description: 'Simple hook to set GIT environment variables'
     entry: tlv-set-git-vars
     language: python
+    files: ^\.git/hooks/pre-commit$
 -   id: tlv-deb-copyright-year
     name: tlv-deb-copyright-year
     description: 'Simple to test if the d/copyright is set to the current year'
     entry: tlv-deb-copyright-year
     language: python
+    files: ^debian/copyright$
 -   id: tlv-deb-run-lrc
     name: tlv-deb-run-lrc
     description: 'Run lincensecheck (lrc) on the debian package'
     entry: tlv-deb-run-lrc
     language: python
+    files: .*
