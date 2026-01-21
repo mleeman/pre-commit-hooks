@@ -10,6 +10,12 @@
     entry: tlv-deb-copyright-year
     language: python
     files: ^debian/copyright$
+-   id: tlv-deb-standards-version
+    name: tlv-deb-standards-version
+    description: 'Simple to test if the d/standards-version is set to the current version'
+    entry: tlv-deb-standards-version
+    language: python
+    files: ^debian/control$
 -   id: tlv-deb-run-lrc
     name: tlv-deb-run-lrc
     description: 'Run lincensecheck (lrc) on the debian package'
