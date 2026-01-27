@@ -22,3 +22,9 @@
     entry: tlv-deb-run-lrc
     language: python
     files: .*
+-   id: tlv-deb-version-fixer
+    name: tlv-deb-version-fixer
+    description: 'Simple Televic Rail version consistency check'
+    entry: tlv-deb-version-fixer
+    language: python
+    files: ^debian/changelog$
