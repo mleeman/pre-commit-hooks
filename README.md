@@ -21,6 +21,15 @@ a repository.
 #### `tlv-deb-run-lrc`
 run lincensecheck on the package
 
+### `tlv_deb_standards_version.py
+check the code with licencerecon (lrc)
+
+### `tlv_deb_version_fixer.py`
+adjust the version to the format a.bb.cc if the package name is `televic-article-*`
+
+### `tlv_set_git_vars.py`
+not used
+
 ### Adding a hook
 To add a new hook, create the script in `pre_commit_hooks/` and add it to
 the `hooks` list in `pre-commit-hooks.yaml`. Add the entry point in the
